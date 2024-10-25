@@ -3,19 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <!-- Link to the CSS file -->
+    <title>Osteopath Clinic - Home</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Osteopath Clinic</h1>
+            <p>Helping you achieve optimal health and wellness</p>
+        </div>
     </header>
-    <main>
-        <p>This is a simple website created with Visual Studio Code.</p>
-        <button onclick="showMessage()">Click Me</button>
-    </main>
-    <!-- Link to the JavaScript file -->
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- Link to Contact Page -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Our Clinic</h2>
+            <p>We specialize in holistic osteopathic treatment, focusing on pain relief, physical health, and well-being.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <!-- Service 1: Back Pain Relief -->
+                <div class="service-item">
+                    <h3><a href="back-pain.html">Back Pain Relief</a></h3>
+                    <p>Comprehensive treatment for back pain and discomfort.</p>
+                </div>
+                <!-- Service 2: Sports Injury Therapy -->
+                <div class="service-item">
+                    <h3><a href="sports-injuries.html">Sports Injury Therapy</a></h3>
+                    <p>Specialized therapy to aid in sports injury recovery.</p>
+                </div>
+                <!-- Service 3: Posture Correction -->
+                <div class="service-item">
+                    <h3><a href="posture-correction.html">Posture Correction</a></h3>
+                    <p>Improving posture for long-term health and mobility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>Contact Us: 123-456-7890 | info@osteopathclinic.com</p>
+            <p>&copy; 2024 Osteopath Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript (if needed) -->
     <script src="script.js"></script>
 </body>
 </html>
